@@ -19,11 +19,11 @@ Shimmer Effect: Displays a shimmer loading effect while data is being fetched fr
 Error Handling: Includes Toast messages to notify users of errors during API requests.
 
 # Challenges Faced
-# 1. Glide Image Loading Issues:
+# 1.Glide Image Loading Issues:
 Faced difficulties with images not loading correctly due to URL or context mismatches.
 Resolved by ensuring correct URL parsing and proper Glide context usage.
 
-# 2. Handling Empty or Missing Data:
+# 2.Handling Empty or Missing Data:
 Encountered situations where API responses had missing fields (e.g., release date, description).
 Resolved by using fallback values like "Unknown" or "No description available."
 
@@ -35,6 +35,6 @@ Fixed by creating a proper data model for the Movie and ensuring type safety.
 The API structure required title-specific details via another endpoint.
 Managed by making separate API calls and updating the UI accordingly.
 
-# 5. Back Button Behavior:
+# 5.Back Button Behavior:
 Ensuring the back button exited the app gracefully without unexpected behaviour.
 Resolved by overriding the onBackPressed method and implementing a confirmation mechanism.
